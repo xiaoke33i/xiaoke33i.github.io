@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   
   
-  <meta name="description" content="12345678910&amp;lt;el-table-column            prop=&amp;quot;state&amp;quot;            label=&amp;quot;状态&amp;quot;            width=&amp;quot;150&amp;quot;           &amp;gt;      " />
+  <meta name="description" content="1234567891011&amp;lt;el-table-column        prop=&amp;quot;state&amp;quot;        label=&amp;quot;状态&amp;quot;        width=&amp;quot;150&amp;quot;       &amp;gt;  &amp;lt;template  scop" />
   
 
   
@@ -15,16 +15,16 @@
   
   <title>转换数据显示不同CSS | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="12345678910&amp;lt;el-table-column            prop=&amp;quot;state&amp;quot;            label=&amp;quot;状态&amp;quot;            width=&amp;quot;150&amp;quot;           &amp;gt;            &amp;lt;template  scope=&amp;quot;scope&amp;quot;&amp;gt;">
+  <meta name="description" content="1234567891011&amp;lt;el-table-column        prop=&amp;quot;state&amp;quot;        label=&amp;quot;状态&amp;quot;        width=&amp;quot;150&amp;quot;       &amp;gt;  &amp;lt;template  scope=&amp;quot;scope&amp;quot;&amp;gt;      &amp;lt;div :class=&amp;quot;">
 <meta property="og:type" content="article">
 <meta property="og:title" content="转换数据显示不同CSS">
 <meta property="og:url" content="http://yoursite.com/2018/02/28/转换/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="12345678910&amp;lt;el-table-column            prop=&amp;quot;state&amp;quot;            label=&amp;quot;状态&amp;quot;            width=&amp;quot;150&amp;quot;           &amp;gt;            &amp;lt;template  scope=&amp;quot;scope&amp;quot;&amp;gt;">
-<meta property="og:updated_time" content="2018-02-28T08:23:18.260Z">
+<meta property="og:description" content="1234567891011&amp;lt;el-table-column        prop=&amp;quot;state&amp;quot;        label=&amp;quot;状态&amp;quot;        width=&amp;quot;150&amp;quot;       &amp;gt;  &amp;lt;template  scope=&amp;quot;scope&amp;quot;&amp;gt;      &amp;lt;div :class=&amp;quot;">
+<meta property="og:updated_time" content="2018-02-28T08:26:02.717Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="转换数据显示不同CSS">
-<meta name="twitter:description" content="12345678910&amp;lt;el-table-column            prop=&amp;quot;state&amp;quot;            label=&amp;quot;状态&amp;quot;            width=&amp;quot;150&amp;quot;           &amp;gt;            &amp;lt;template  scope=&amp;quot;scope&amp;quot;&amp;gt;">
+<meta name="twitter:description" content="1234567891011&amp;lt;el-table-column        prop=&amp;quot;state&amp;quot;        label=&amp;quot;状态&amp;quot;        width=&amp;quot;150&amp;quot;       &amp;gt;  &amp;lt;template  scope=&amp;quot;scope&amp;quot;&amp;gt;      &amp;lt;div :class=&amp;quot;">
   
   
     <link rel="icon" href="/css/images/favicon.ico">
@@ -85,7 +85,7 @@
 
     <div class="entry-content">
       
-        <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;el-table-column</span><br><span class="line">            prop=&quot;state&quot;</span><br><span class="line">            label=&quot;状态&quot;</span><br><span class="line">            width=&quot;150&quot;</span><br><span class="line">           &gt;</span><br><span class="line">            &lt;template  scope=&quot;scope&quot;&gt;</span><br><span class="line">              &lt;div :class=&quot;&#123;active:scope.row.state == &apos;0&apos;&#125;&quot;&gt;</span><br><span class="line">              &lt;span&gt;&#123;&#123;scope.row.state == &apos;0&apos;?&apos;冻结&apos;:&apos;正常&apos;&#125;&#125;&lt;/span&gt;</span><br><span class="line">              &lt;/div&gt;</span><br><span class="line">            &lt;/template&gt;</span><br></pre></td></tr></table></figure>
+        <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&lt;el-table-column</span><br><span class="line">        prop=&quot;state&quot;</span><br><span class="line">        label=&quot;状态&quot;</span><br><span class="line">        width=&quot;150&quot;</span><br><span class="line">       &gt;</span><br><span class="line">  &lt;template  scope=&quot;scope&quot;&gt;</span><br><span class="line">      &lt;div :class=&quot;&#123;active:scope.row.state == &apos;0&apos;&#125;&quot;&gt;</span><br><span class="line">       &lt;span&gt;&#123;&#123;scope.row.state == &apos;0&apos;?&apos;冻结&apos;:&apos;正常&apos;&#125;&#125;&lt;/span&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">  &lt;/template&gt;</span><br><span class="line">&lt;/el-table-column&gt;</span><br></pre></td></tr></table></figure>
 
       
     </div><!-- .entry-content -->
