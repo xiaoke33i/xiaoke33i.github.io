@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-02-28T08:26:02.717Z</updated>
+  <updated>2018-03-05T14:53:54.233Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>验证</title>
+    <link href="http://yoursite.com/2018/03/05/vee-validate/"/>
+    <id>http://yoursite.com/2018/03/05/vee-validate/</id>
+    <published>2018-03-05T09:53:25.956Z</published>
+    <updated>2018-03-05T14:53:54.233Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="中英文转换–-gt-Validator-addLocale-zh-失效–-gt-VueI18n"><a href="#中英文转换–-gt-Validator-addLocale-zh-失效–-gt-VueI18n" class="headerlink" title="中英文转换–&gt; Validator.addLocale(zh)失效–&gt;VueI18n"></a>中英文转换–&gt; Validator.addLocale(zh)失效–&gt;VueI18n</h3><h3 id="errors里元素为空–-gt-待解决"><a href="#errors里元素为空–-gt-待解决" class="headerlink" title="errors里元素为空–&gt;待解决"></a>errors里元素为空–&gt;待解决</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;中英文转换–-gt-Validator-addLocale-zh-失效–-gt-VueI18n&quot;&gt;&lt;a href=&quot;#中英文转换–-gt-Validator-addLocale-zh-失效–-gt-VueI18n&quot; class=&quot;headerlink&quot; title
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>转换数据显示不同CSS</title>
